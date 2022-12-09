@@ -1,10 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Profile } from '../components/profile.jsx';
+import { LinkList } from '../components/link-list';
 ---
 
 <Layout title={`Calico's Links`}>
-  <main>
-    <Profile />
-  </main>
+  <Profile client:load />
+  <LinkList client:load />
 </Layout>
