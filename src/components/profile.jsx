@@ -1,5 +1,10 @@
 import { motion } from 'framer-motion';
-import { FaTiktok, FaYoutube, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import {
+  FaTiktok,
+  FaYoutube,
+  FaInstagram,
+  FaEnvelope,
+} from 'react-icons/fa/index.js';
 
 export const Profile = () => {
   return (
