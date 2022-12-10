@@ -11,7 +11,7 @@ export const LinkList = () => {
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}>
+          transition={{ duration: 0.5 }}>
           <div className='flex flex-col space-y-4 mt-4'>
             <ul className='space-y-4'>
               {freeInstruments.map((link) => {
@@ -36,7 +36,7 @@ export const LinkList = () => {
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5 }}>
+          transition={{ duration: 0.5 }}>
           <div className='flex flex-col space-y-4 mt-4'>
             <ul className='space-y-4'>
               {resources.map((link) => {
