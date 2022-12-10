@@ -2,17 +2,17 @@ export const freeInstruments = [
   {
     id: 1,
     title: 'Modular 808',
-    url: 'https://www.pianobook.co.uk/packs/modular-808/',
+    url: 'https://calicolive.gumroad.com/l/modular808',
   },
   {
     id: 2,
     title: 'Thru Zero E-Piano',
-    url: 'https://www.pianobook.co.uk/packs/thru-zero-e-piano/',
+    url: 'https://calicolive.gumroad.com/l/thru-zero',
   },
   {
     id: 3,
     title: 'Dusty Rings Keys',
-    url: 'https://www.pianobook.co.uk/packs/dusty-rings-keys/',
+    url: 'https://calicolive.gumroad.com/l/dusty-rings-keys',
   },
   {
     id: 4,

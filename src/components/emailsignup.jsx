@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const EmailSignUp = () => {
   return (
-    <section>
+    <section className='mx-auto'>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -15,19 +15,18 @@ export const EmailSignUp = () => {
           id='3zp87w'
           data-async='true'
           data-recaptcha='false'>
-          <p>
-            <p className='text-white text-md font-semibold p-4'>
-              Get all my free instruments directly to your inbox!
-            </p>
-            <input
-              type='email'
-              id='sendfox_form_email'
-              placeholder='Email'
-              name='email'
-              required
-              className='border rounded px-4 py-2 mr-4 w-96 text-black'
-            />
+          <p className='text-md p-4 text-center font-semibold text-white'>
+            Get all my free instruments directly to your inbox!
           </p>
+          <input
+            type='email'
+            id='sendfox_form_email'
+            placeholder='Email'
+            name='email'
+            required
+            className='mx-auto w-96 rounded border py-2 pl-4 text-black'
+          />
+
           {/* no botz please */}
           <div
             style={{ position: 'absolute', left: '-5000px' }}
@@ -40,10 +39,10 @@ export const EmailSignUp = () => {
               autoComplete='off'
             />
           </div>
-          <p className=''>
+          <p>
             <button
               type='submit'
-              className='bg-indigo-500 text-white px-4 py-2 rounded-lg shadow-sm hover:scale-110'>
+              className='rounded-lg bg-indigo-500 px-4 py-2 text-white shadow-sm hover:scale-110'>
               Sign Up
             </button>
           </p>
