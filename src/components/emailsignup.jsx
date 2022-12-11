@@ -10,9 +10,9 @@ export const EmailSignUp = () => {
         transition={{ duration: 0.5 }}>
         <form
           method='post'
-          action='https://sendfox.com/form/m55qjz/3zp87w'
+          action='https://sendfox.com/form/1v9746/1yngyo'
           className='sendfox-form flex flex-col items-center justify-center space-y-4'
-          id='3zp87w'
+          id='1yngyo'
           data-async='true'
           data-recaptcha='false'>
           <p className='text-md p-4 text-center font-semibold text-white'>
