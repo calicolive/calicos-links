@@ -19,6 +19,11 @@ export const freeInstruments = [
     title: '20 Analog Kicks Samples',
     url: 'https://calicolive.gumroad.com/l/10analogkicks',
   },
+  {
+    id: 5,
+    title: 'Mech Strings',
+    url: 'https://calicolive.gumroad.com/l/mechstrings',
+  },
 ];
 
 export const resources = [

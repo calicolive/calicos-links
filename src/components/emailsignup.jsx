@@ -11,11 +11,12 @@ export const EmailSignUp = () => {
         <form
           method='post'
           action='https://sendfox.com/form/1v9746/1yngyo'
-          className='sendfox-form flex flex-col items-center justify-center space-y-4'
+          className='sendfox-form flex flex-col items-center justify-center space-y-4
+          '
           id='1yngyo'
           data-async='true'
           data-recaptcha='false'>
-          <p className='text-md p-4 text-center font-semibold text-white'>
+          <p className='text-md pt-4 text-center font-semibold text-white'>
             Get all my free instruments directly to your inbox!
           </p>
           <input
