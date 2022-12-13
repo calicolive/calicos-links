@@ -16,8 +16,9 @@ export const EmailSignUp = () => {
           id='1yngyo'
           data-async='true'
           data-recaptcha='false'>
-          <p className='text-md pt-4 text-center font-semibold text-white'>
-            Get all my free instruments directly to your inbox!
+          <p className='text-md w-72 pt-4 text-center text-white'>
+            Sign up and be the first to know when a new free instrument is
+            released
           </p>
           <input
             type='email'
