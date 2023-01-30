@@ -37,4 +37,9 @@ export const resources = [
     title: 'How to Use Compressors',
     url: 'https://www.attackmagazine.com/technique/tutorials/choosing-the-right-compressor-type/',
   },
+  {
+    id: 3,
+    title: 'Sync Licensing Companies',
+    url: 'sync-companies.pdf',
+  },
 ];
